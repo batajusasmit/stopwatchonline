@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f1f1f1 !important;
+}
+
+.titletag {
+  padding: 40px;
+  width: 600px;
+  height: 280px;
+  background-color: #147EFB;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 5px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+#watch {
+  text-align: center;
+  font-size: 80px;
+}
+
+.btn {
+  width: 30%;
+}
+
+.options {
+  text-align: center;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { /* STYLES GO HERE */}
